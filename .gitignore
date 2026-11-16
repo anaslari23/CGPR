@@ -1,3 +1,7 @@
-AI_Developer_Assignment.pdf
-neetrag.zip
 .DS_Store
+.venv/
+AI_Developer_Assignment.pdf
+__pycache__/
+index/
+logs/
+neetrag.zip
