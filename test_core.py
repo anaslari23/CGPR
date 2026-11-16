@@ -40,3 +40,16 @@ assert n.verify(resp, r, "2024 closing rank Rajghat Government Medical College M
 assert n.verify(resp, r, "2025 closing rank Nilgiri Government Medical College MBBS General")      # wrong college
 assert n.ask("Which college has the lowest closing rank?")["status"] == "refused"
 print("ok (slots)")
+
+# predictor lists both courses by default and can be narrowed
+both = n.predict(5000, "General", state="Tamil Nadu", limit=50)
+assert {"MBBS", "BDS"} <= {r["reason"].split(") ")[1].split(":")[0] for r in both}
+assert {r["reason"].split(") ")[1].split(":")[0] for r in n.predict(5000, "General", state="Tamil Nadu", course="BDS", limit=50)} == {"BDS"}
+print("ok (courses)")
+
+# advice honours "private" / "government" in the question
+priv = n.ask("Should I choose a private college this year if my rank is 30000 in General?")["text"]
+assert "(Government" not in priv and "Private" in priv
+gov = n.ask("Should I pick a government college if my rank is 3000 in General?")["text"]
+assert "Private" not in gov and "Government" in gov
+print("ok (advice type)")

@@ -30,7 +30,8 @@ Open weights, served by Ollama (llama.cpp), 4-bit quantised, JSON mode, temperat
 - **Tested here:** `qwen2.5:3b` on an Apple M1 with 8 GB RAM.
 - **Tested on Colab (free Tesla T4, 15 GB):** `qwen2.5:7b-instruct`, 4.7 GB at 4-bit. Measured: 100% on GPU, 5.1 GB VRAM in use with the embedder loaded, 28/28 on the final eval at 1.6 s per case.
 - **Target on the workstation:** a ~32B instruct model at 4-bit (Qwen2.5-32B-Instruct class). Qwen is a good fit: strong
-  JSON/instruction following at this size, permissive licence. I would re-run the eval before choosing between it and
+  JSON/instruction following at this size, and the 7B/14B/32B models are Apache 2.0 (the 3B I used on a laptop is
+  research-licence only, so it is a demo model, not an office one). I would re-run the eval before choosing between it and
   a similar-size alternative; I have not run 32B.
 
 ## 4. GPU and memory estimate (workstation, estimated, not measured)
@@ -46,7 +47,7 @@ I **assume 48 GB VRAM** (RTX 6000 Ada class) and do not assume a card generation
 Speed: decoding is memory-bandwidth bound. At ~960 GB/s and a ~20 GB model the ceiling is ~48 tokens/s for one stream;
 I would plan on 25-35 tokens/s real. Answers here are short (<100 tokens), so about 3-4 s each plus retrieval. This is
 arithmetic, not a benchmark. On a 24 GB card the same design works with a 14B model.
-Measured: M1/3B 4.6 s per eval case; Colab T4/7B 1.6 s per case (7B model, 5.1 GB VRAM). Scaling to 32B is an estimate: roughly 4.5x the weights, so expect a few times slower per token on a faster card.
+Measured: M1/3B 4.6-7.0 s per eval case (varies with load); Colab T4/7B 1.6 s per case (7B model, 5.1 GB VRAM). Scaling to 32B is an estimate: roughly 4.5x the weights, so expect a few times slower per token on a faster card.
 
 ## 5. Evaluation
 28 cases in `eval_set.json`, expected behaviour fixed in advance: 10 answerable (8 table lookups with the right figure and

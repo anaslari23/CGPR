@@ -61,7 +61,11 @@ def chat(system, user):
 def build_index():
     IDX.mkdir(exist_ok=True)
     ch = load_chunks()
-    np.save(IDX / "emb.npy", embed([c["text"] for c in ch], "search_document: "))
+    texts, parts = [c["text"] for c in ch], []
+    for i in range(0, len(texts), 32):  # small batches: a CPU-only box can be slow, and one huge request would time out
+        parts.append(embed(texts[i:i + 32], "search_document: "))
+        print(f"  embedded {min(i + 32, len(texts))}/{len(texts)}", flush=True)
+    np.save(IDX / "emb.npy", np.vstack(parts))
     (IDX / "chunks.json").write_text(json.dumps(ch))
     print(f"indexed {len(ch)} chunks -> {IDX}")
 
@@ -107,7 +111,8 @@ def log(ev):
         f.write(json.dumps({"ts": time.strftime("%Y-%m-%dT%H:%M:%S"), **ev}) + "\n")
 
 # ---------- predictor (deterministic: the LLM never computes eligibility) ----------
-def predict(rank, category, state=None, typ=None, course="MBBS", year=None, limit=8):
+def predict(rank, category, state=None, typ=None, course=None, year=None, limit=8):
+    """course=None lists every course (MBBS and BDS); pass 'MBBS' or 'BDS' to narrow."""
     cat = next((c for c in CATS if c.lower() == category.lower()), None)
     if cat is None:
         raise ValueError(f"unknown category {category!r}; use one of {CATS}")
@@ -121,16 +126,18 @@ def predict(rank, category, state=None, typ=None, course="MBBS", year=None, limi
     prev = {(r["college"], r["course"], r["category"], r["year"]): r for r in rows}
     out = []
     for r in sorted(rows, key=lambda r: r["closing_rank"]):
-        if (r["category"], r["year"], r["course"]) != (cat, year, course) or r["closing_rank"] < rank:
+        if (r["category"], r["year"]) != (cat, year) or r["closing_rank"] < rank:
+            continue
+        if course and r["course"].lower() != course.lower():
             continue
         if state and r["state"].lower() != state.lower() or typ and r["type"].lower() != typ.lower():
             continue
         margin = (r["closing_rank"] - rank) / r["closing_rank"]
         tier = "safe" if margin >= .25 else "likely" if margin >= .10 else "borderline"
-        p = prev.get((r["college"], course, cat, year - 1))
+        p = prev.get((r["college"], r["course"], cat, year - 1))
         trend = f" In {year-1} it closed at {p['closing_rank']:,} [{p['id']}]." if p else ""
         out.append({"id": r["id"], "college": r["college"], "tier": tier, "reason":
-                    f"{r['college']} ({r['state']}, {r['type']}): {year} closing rank for {cat} was "
+                    f"{r['college']} ({r['state']}, {r['type']}) {r['course']}: {year} closing rank for {cat} was "
                     f"{r['closing_rank']:,}; your rank {rank:,} is {margin:.0%} inside it -> {tier}.{trend} [{r['id']}]"})
     return out[:limit]
 
@@ -194,7 +201,8 @@ def ask(q):
         m, c = re.search(r"rank\s*(?:is|of|:)?\s*#?(\d[\d,]*)", q, re.I), re.search(r"\b(general|ews|obc|sc|st)\b", q, re.I)
         head = "I can't give guarantees or personal advice. "
         if m and c:
-            return done("advice", head + "Options from the data:\n" + fmt_predict(predict(int(m[1].replace(",", "")), c[1])), "advice intent")
+            typ = "Private" if re.search(r"\bprivate\b", q, re.I) else "Government" if re.search(r"\b(government|govt)\b", q, re.I) else None
+            return done("advice", head + "Options from the data:\n" + fmt_predict(predict(int(m[1].replace(",", "")), c[1], typ=typ)), "advice intent")
         return done("advice", head + "Give your rank and category and I can list options from the data.", "advice intent")
     if AGGREGATE.search(q):  # the model only sees a handful of rows, so it cannot rank or total a table
         return done("refused", "I look up individual rows; I can't rank, compare or total across the table. "
@@ -228,7 +236,7 @@ if __name__ == "__main__":
     a = sub.add_parser("ask"); a.add_argument("question", nargs="?")
     p = sub.add_parser("predict")
     p.add_argument("--rank", type=int, required=True); p.add_argument("--category", required=True)
-    p.add_argument("--state"); p.add_argument("--type"); p.add_argument("--course", default="MBBS")
+    p.add_argument("--state"); p.add_argument("--type"); p.add_argument("--course", help="MBBS or BDS (default: both)")
     p.add_argument("--year", type=int)
     n = ap.parse_args()
     if n.cmd == "index":
