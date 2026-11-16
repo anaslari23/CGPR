@@ -1,0 +1,316 @@
+id,college,state,type,course,category,year,closing_rank,seats
+R001,Sundarpur Government Medical College,West Bengal,Government,MBBS,General,2023,772,150
+R002,Sundarpur Government Medical College,West Bengal,Government,MBBS,General,2024,813,150
+R003,Sundarpur Government Medical College,West Bengal,Government,MBBS,General,2025,919,150
+R004,Sundarpur Government Medical College,West Bengal,Government,MBBS,EWS,2023,1005,150
+R005,Sundarpur Government Medical College,West Bengal,Government,MBBS,EWS,2024,1160,150
+R006,Sundarpur Government Medical College,West Bengal,Government,MBBS,EWS,2025,1192,150
+R007,Sundarpur Government Medical College,West Bengal,Government,MBBS,OBC,2023,1263,150
+R008,Sundarpur Government Medical College,West Bengal,Government,MBBS,OBC,2024,1455,150
+R009,Sundarpur Government Medical College,West Bengal,Government,MBBS,OBC,2025,1430,150
+R010,Sundarpur Government Medical College,West Bengal,Government,MBBS,SC,2023,4315,150
+R011,Sundarpur Government Medical College,West Bengal,Government,MBBS,SC,2024,4419,150
+R012,Sundarpur Government Medical College,West Bengal,Government,MBBS,SC,2025,4666,150
+R013,Sundarpur Government Medical College,West Bengal,Government,MBBS,ST,2023,7052,150
+R014,Sundarpur Government Medical College,West Bengal,Government,MBBS,ST,2024,8047,150
+R015,Sundarpur Government Medical College,West Bengal,Government,MBBS,ST,2025,7673,150
+R016,Sundarpur Government Medical College,West Bengal,Government,BDS,General,2023,4567,50
+R017,Sundarpur Government Medical College,West Bengal,Government,BDS,General,2024,5221,50
+R018,Sundarpur Government Medical College,West Bengal,Government,BDS,General,2025,5738,50
+R019,Sundarpur Government Medical College,West Bengal,Government,BDS,EWS,2023,6484,50
+R020,Sundarpur Government Medical College,West Bengal,Government,BDS,EWS,2024,6825,50
+R021,Sundarpur Government Medical College,West Bengal,Government,BDS,EWS,2025,7776,50
+R022,Sundarpur Government Medical College,West Bengal,Government,BDS,OBC,2023,7565,50
+R023,Sundarpur Government Medical College,West Bengal,Government,BDS,OBC,2024,9158,50
+R024,Sundarpur Government Medical College,West Bengal,Government,BDS,OBC,2025,8909,50
+R025,Sundarpur Government Medical College,West Bengal,Government,BDS,SC,2023,24834,50
+R026,Sundarpur Government Medical College,West Bengal,Government,BDS,SC,2024,26705,50
+R027,Sundarpur Government Medical College,West Bengal,Government,BDS,SC,2025,28903,50
+R028,Sundarpur Government Medical College,West Bengal,Government,BDS,ST,2023,44660,50
+R029,Sundarpur Government Medical College,West Bengal,Government,BDS,ST,2024,44106,50
+R030,Sundarpur Government Medical College,West Bengal,Government,BDS,ST,2025,49155,50
+R031,Rajghat Government Medical College,West Bengal,Government,MBBS,General,2023,2332,150
+R032,Rajghat Government Medical College,West Bengal,Government,MBBS,General,2024,2425,150
+R033,Rajghat Government Medical College,West Bengal,Government,MBBS,General,2025,2617,150
+R034,Rajghat Government Medical College,West Bengal,Government,MBBS,EWS,2023,2899,150
+R035,Rajghat Government Medical College,West Bengal,Government,MBBS,EWS,2024,3128,150
+R036,Rajghat Government Medical College,West Bengal,Government,MBBS,EWS,2025,3365,150
+R037,Rajghat Government Medical College,West Bengal,Government,MBBS,OBC,2023,3987,150
+R038,Rajghat Government Medical College,West Bengal,Government,MBBS,OBC,2024,4156,150
+R039,Rajghat Government Medical College,West Bengal,Government,MBBS,OBC,2025,4304,150
+R040,Rajghat Government Medical College,West Bengal,Government,MBBS,SC,2023,12734,150
+R041,Rajghat Government Medical College,West Bengal,Government,MBBS,SC,2024,13495,150
+R042,Rajghat Government Medical College,West Bengal,Government,MBBS,SC,2025,13899,150
+R043,Rajghat Government Medical College,West Bengal,Government,MBBS,ST,2023,21440,150
+R044,Rajghat Government Medical College,West Bengal,Government,MBBS,ST,2024,22849,150
+R045,Rajghat Government Medical College,West Bengal,Government,MBBS,ST,2025,22561,150
+R046,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,General,2023,1333,150
+R047,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,General,2024,1430,150
+R048,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,General,2025,1578,150
+R049,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,EWS,2023,1839,150
+R050,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,EWS,2024,1866,150
+R051,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,EWS,2025,2161,150
+R052,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,OBC,2023,2124,150
+R053,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,OBC,2024,2394,150
+R054,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,OBC,2025,2641,150
+R055,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,SC,2023,6906,150
+R056,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,SC,2024,7825,150
+R057,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,SC,2025,7717,150
+R058,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,ST,2023,12159,150
+R059,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,ST,2024,13300,150
+R060,Nilgiri Government Medical College,Tamil Nadu,Government,MBBS,ST,2025,13638,150
+R061,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,General,2023,8336,50
+R062,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,General,2024,8327,50
+R063,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,General,2025,9246,50
+R064,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,EWS,2023,10833,50
+R065,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,EWS,2024,11671,50
+R066,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,EWS,2025,12075,50
+R067,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,OBC,2023,14104,50
+R068,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,OBC,2024,15439,50
+R069,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,OBC,2025,15244,50
+R070,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,SC,2023,44561,50
+R071,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,SC,2024,44132,50
+R072,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,SC,2025,50896,50
+R073,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,ST,2023,72748,50
+R074,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,ST,2024,82262,50
+R075,Nilgiri Government Medical College,Tamil Nadu,Government,BDS,ST,2025,84650,50
+R076,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,General,2023,3584,150
+R077,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,General,2024,3926,150
+R078,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,General,2025,4299,150
+R079,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,EWS,2023,4656,150
+R080,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,EWS,2024,5357,150
+R081,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,EWS,2025,5406,150
+R082,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,OBC,2023,5946,150
+R083,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,OBC,2024,6364,150
+R084,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,OBC,2025,7408,150
+R085,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,SC,2023,19273,150
+R086,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,SC,2024,21169,150
+R087,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,SC,2025,22747,150
+R088,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,ST,2023,34993,150
+R089,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,ST,2024,33801,150
+R090,Kaveri Government Medical College,Tamil Nadu,Government,MBBS,ST,2025,37531,150
+R091,Aravali Government Medical College,Rajasthan,Government,MBBS,General,2023,2746,150
+R092,Aravali Government Medical College,Rajasthan,Government,MBBS,General,2024,3103,150
+R093,Aravali Government Medical College,Rajasthan,Government,MBBS,General,2025,3238,150
+R094,Aravali Government Medical College,Rajasthan,Government,MBBS,EWS,2023,3870,150
+R095,Aravali Government Medical College,Rajasthan,Government,MBBS,EWS,2024,3852,150
+R096,Aravali Government Medical College,Rajasthan,Government,MBBS,EWS,2025,4135,150
+R097,Aravali Government Medical College,Rajasthan,Government,MBBS,OBC,2023,4545,150
+R098,Aravali Government Medical College,Rajasthan,Government,MBBS,OBC,2024,5275,150
+R099,Aravali Government Medical College,Rajasthan,Government,MBBS,OBC,2025,5607,150
+R100,Aravali Government Medical College,Rajasthan,Government,MBBS,SC,2023,14270,150
+R101,Aravali Government Medical College,Rajasthan,Government,MBBS,SC,2024,15463,150
+R102,Aravali Government Medical College,Rajasthan,Government,MBBS,SC,2025,16410,150
+R103,Aravali Government Medical College,Rajasthan,Government,MBBS,ST,2023,23635,150
+R104,Aravali Government Medical College,Rajasthan,Government,MBBS,ST,2024,26449,150
+R105,Aravali Government Medical College,Rajasthan,Government,MBBS,ST,2025,28248,150
+R106,Aravali Government Medical College,Rajasthan,Government,BDS,General,2023,15824,50
+R107,Aravali Government Medical College,Rajasthan,Government,BDS,General,2024,16443,50
+R108,Aravali Government Medical College,Rajasthan,Government,BDS,General,2025,18388,50
+R109,Aravali Government Medical College,Rajasthan,Government,BDS,EWS,2023,21692,50
+R110,Aravali Government Medical College,Rajasthan,Government,BDS,EWS,2024,24076,50
+R111,Aravali Government Medical College,Rajasthan,Government,BDS,EWS,2025,26702,50
+R112,Aravali Government Medical College,Rajasthan,Government,BDS,OBC,2023,28567,50
+R113,Aravali Government Medical College,Rajasthan,Government,BDS,OBC,2024,30104,50
+R114,Aravali Government Medical College,Rajasthan,Government,BDS,OBC,2025,32140,50
+R115,Aravali Government Medical College,Rajasthan,Government,BDS,SC,2023,92244,50
+R116,Aravali Government Medical College,Rajasthan,Government,BDS,SC,2024,91116,50
+R117,Aravali Government Medical College,Rajasthan,Government,BDS,SC,2025,108022,50
+R118,Aravali Government Medical College,Rajasthan,Government,BDS,ST,2023,153086,50
+R119,Aravali Government Medical College,Rajasthan,Government,BDS,ST,2024,167368,50
+R120,Aravali Government Medical College,Rajasthan,Government,BDS,ST,2025,174380,50
+R121,Thar Government Medical College,Rajasthan,Government,MBBS,General,2023,6760,150
+R122,Thar Government Medical College,Rajasthan,Government,MBBS,General,2024,7305,150
+R123,Thar Government Medical College,Rajasthan,Government,MBBS,General,2025,7367,150
+R124,Thar Government Medical College,Rajasthan,Government,MBBS,EWS,2023,9440,150
+R125,Thar Government Medical College,Rajasthan,Government,MBBS,EWS,2024,9390,150
+R126,Thar Government Medical College,Rajasthan,Government,MBBS,EWS,2025,9892,150
+R127,Thar Government Medical College,Rajasthan,Government,MBBS,OBC,2023,11193,150
+R128,Thar Government Medical College,Rajasthan,Government,MBBS,OBC,2024,12001,150
+R129,Thar Government Medical College,Rajasthan,Government,MBBS,OBC,2025,12963,150
+R130,Thar Government Medical College,Rajasthan,Government,MBBS,SC,2023,35387,150
+R131,Thar Government Medical College,Rajasthan,Government,MBBS,SC,2024,37903,150
+R132,Thar Government Medical College,Rajasthan,Government,MBBS,SC,2025,40805,150
+R133,Thar Government Medical College,Rajasthan,Government,MBBS,ST,2023,58329,150
+R134,Thar Government Medical College,Rajasthan,Government,MBBS,ST,2024,65416,150
+R135,Thar Government Medical College,Rajasthan,Government,MBBS,ST,2025,65536,150
+R136,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,General,2023,1944,150
+R137,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,General,2024,2026,150
+R138,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,General,2025,1996,150
+R139,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,EWS,2023,2408,150
+R140,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,EWS,2024,2635,150
+R141,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,EWS,2025,2781,150
+R142,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,OBC,2023,2975,150
+R143,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,OBC,2024,3557,150
+R144,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,OBC,2025,3816,150
+R145,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,SC,2023,10115,150
+R146,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,SC,2024,10947,150
+R147,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,SC,2025,10880,150
+R148,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,ST,2023,15705,150
+R149,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,ST,2024,17559,150
+R150,Gomti Government Medical College,Uttar Pradesh,Government,MBBS,ST,2025,18277,150
+R151,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,General,2023,4970,150
+R152,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,General,2024,4886,150
+R153,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,General,2025,5039,150
+R154,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,EWS,2023,6820,150
+R155,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,EWS,2024,6952,150
+R156,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,EWS,2025,6929,150
+R157,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,OBC,2023,8127,150
+R158,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,OBC,2024,8143,150
+R159,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,OBC,2025,9216,150
+R160,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,SC,2023,27886,150
+R161,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,SC,2024,29650,150
+R162,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,SC,2025,30515,150
+R163,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,ST,2023,41337,150
+R164,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,ST,2024,45308,150
+R165,Vindhya Government Medical College,Madhya Pradesh,Government,MBBS,ST,2025,46334,150
+R166,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,General,2023,29597,50
+R167,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,General,2024,30920,50
+R168,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,General,2025,33665,50
+R169,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,EWS,2023,37573,50
+R170,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,EWS,2024,39941,50
+R171,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,EWS,2025,45647,50
+R172,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,OBC,2023,51761,50
+R173,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,OBC,2024,54909,50
+R174,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,OBC,2025,57440,50
+R175,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,SC,2023,163804,50
+R176,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,SC,2024,174975,50
+R177,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,SC,2025,171382,50
+R178,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,ST,2023,257241,50
+R179,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,ST,2024,271418,50
+R180,Vindhya Government Medical College,Madhya Pradesh,Government,BDS,ST,2025,272371,50
+R181,Lakeview Private Medical College,Karnataka,Private,MBBS,General,2023,17258,100
+R182,Lakeview Private Medical College,Karnataka,Private,MBBS,General,2024,19333,100
+R183,Lakeview Private Medical College,Karnataka,Private,MBBS,General,2025,20291,100
+R184,Lakeview Private Medical College,Karnataka,Private,MBBS,EWS,2023,25620,100
+R185,Lakeview Private Medical College,Karnataka,Private,MBBS,EWS,2024,28653,100
+R186,Lakeview Private Medical College,Karnataka,Private,MBBS,EWS,2025,28140,100
+R187,Lakeview Private Medical College,Karnataka,Private,MBBS,OBC,2023,33338,100
+R188,Lakeview Private Medical College,Karnataka,Private,MBBS,OBC,2024,36232,100
+R189,Lakeview Private Medical College,Karnataka,Private,MBBS,OBC,2025,37974,100
+R190,Lakeview Private Medical College,Karnataka,Private,MBBS,SC,2023,99713,100
+R191,Lakeview Private Medical College,Karnataka,Private,MBBS,SC,2024,105430,100
+R192,Lakeview Private Medical College,Karnataka,Private,MBBS,SC,2025,111083,100
+R193,Lakeview Private Medical College,Karnataka,Private,MBBS,ST,2023,159257,100
+R194,Lakeview Private Medical College,Karnataka,Private,MBBS,ST,2024,172118,100
+R195,Lakeview Private Medical College,Karnataka,Private,MBBS,ST,2025,192282,100
+R196,Lakeview Private Medical College,Karnataka,Private,BDS,General,2023,117094,50
+R197,Lakeview Private Medical College,Karnataka,Private,BDS,General,2024,125405,50
+R198,Lakeview Private Medical College,Karnataka,Private,BDS,General,2025,125637,50
+R199,Lakeview Private Medical College,Karnataka,Private,BDS,EWS,2023,152893,50
+R200,Lakeview Private Medical College,Karnataka,Private,BDS,EWS,2024,168373,50
+R201,Lakeview Private Medical College,Karnataka,Private,BDS,EWS,2025,160211,50
+R202,Lakeview Private Medical College,Karnataka,Private,BDS,OBC,2023,192733,50
+R203,Lakeview Private Medical College,Karnataka,Private,BDS,OBC,2024,215163,50
+R204,Lakeview Private Medical College,Karnataka,Private,BDS,OBC,2025,222665,50
+R205,Lakeview Private Medical College,Karnataka,Private,BDS,SC,2023,631196,50
+R206,Lakeview Private Medical College,Karnataka,Private,BDS,SC,2024,656325,50
+R207,Lakeview Private Medical College,Karnataka,Private,BDS,SC,2025,661810,50
+R208,Lakeview Private Medical College,Karnataka,Private,BDS,ST,2023,1038314,50
+R209,Lakeview Private Medical College,Karnataka,Private,BDS,ST,2024,1052039,50
+R210,Lakeview Private Medical College,Karnataka,Private,BDS,ST,2025,1181758,50
+R211,Harbour Private Medical College,Maharashtra,Private,MBBS,General,2023,31895,100
+R212,Harbour Private Medical College,Maharashtra,Private,MBBS,General,2024,31828,100
+R213,Harbour Private Medical College,Maharashtra,Private,MBBS,General,2025,33530,100
+R214,Harbour Private Medical College,Maharashtra,Private,MBBS,EWS,2023,42918,100
+R215,Harbour Private Medical College,Maharashtra,Private,MBBS,EWS,2024,44977,100
+R216,Harbour Private Medical College,Maharashtra,Private,MBBS,EWS,2025,43779,100
+R217,Harbour Private Medical College,Maharashtra,Private,MBBS,OBC,2023,48208,100
+R218,Harbour Private Medical College,Maharashtra,Private,MBBS,OBC,2024,52228,100
+R219,Harbour Private Medical College,Maharashtra,Private,MBBS,OBC,2025,61076,100
+R220,Harbour Private Medical College,Maharashtra,Private,MBBS,SC,2023,171621,100
+R221,Harbour Private Medical College,Maharashtra,Private,MBBS,SC,2024,168850,100
+R222,Harbour Private Medical College,Maharashtra,Private,MBBS,SC,2025,195548,100
+R223,Harbour Private Medical College,Maharashtra,Private,MBBS,ST,2023,287387,100
+R224,Harbour Private Medical College,Maharashtra,Private,MBBS,ST,2024,297100,100
+R225,Harbour Private Medical College,Maharashtra,Private,MBBS,ST,2025,299591,100
+R226,Meridian Private Medical College,Karnataka,Private,MBBS,General,2023,46071,100
+R227,Meridian Private Medical College,Karnataka,Private,MBBS,General,2024,46847,100
+R228,Meridian Private Medical College,Karnataka,Private,MBBS,General,2025,48463,100
+R229,Meridian Private Medical College,Karnataka,Private,MBBS,EWS,2023,65848,100
+R230,Meridian Private Medical College,Karnataka,Private,MBBS,EWS,2024,68087,100
+R231,Meridian Private Medical College,Karnataka,Private,MBBS,EWS,2025,70461,100
+R232,Meridian Private Medical College,Karnataka,Private,MBBS,OBC,2023,82514,100
+R233,Meridian Private Medical College,Karnataka,Private,MBBS,OBC,2024,83201,100
+R234,Meridian Private Medical College,Karnataka,Private,MBBS,OBC,2025,93000,100
+R235,Meridian Private Medical College,Karnataka,Private,MBBS,SC,2023,263172,100
+R236,Meridian Private Medical College,Karnataka,Private,MBBS,SC,2024,260708,100
+R237,Meridian Private Medical College,Karnataka,Private,MBBS,SC,2025,276063,100
+R238,Meridian Private Medical College,Karnataka,Private,MBBS,ST,2023,399902,100
+R239,Meridian Private Medical College,Karnataka,Private,MBBS,ST,2024,428450,100
+R240,Meridian Private Medical College,Karnataka,Private,MBBS,ST,2025,473663,100
+R241,Meridian Private Medical College,Karnataka,Private,BDS,General,2023,265310,50
+R242,Meridian Private Medical College,Karnataka,Private,BDS,General,2024,293039,50
+R243,Meridian Private Medical College,Karnataka,Private,BDS,General,2025,295885,50
+R244,Meridian Private Medical College,Karnataka,Private,BDS,EWS,2023,391932,50
+R245,Meridian Private Medical College,Karnataka,Private,BDS,EWS,2024,391949,50
+R246,Meridian Private Medical College,Karnataka,Private,BDS,EWS,2025,418732,50
+R247,Meridian Private Medical College,Karnataka,Private,BDS,OBC,2023,472198,50
+R248,Meridian Private Medical College,Karnataka,Private,BDS,OBC,2024,532400,50
+R249,Meridian Private Medical College,Karnataka,Private,BDS,OBC,2025,524506,50
+R250,Meridian Private Medical College,Karnataka,Private,BDS,SC,2023,1598390,50
+R251,Meridian Private Medical College,Karnataka,Private,BDS,SC,2024,1630576,50
+R252,Meridian Private Medical College,Karnataka,Private,BDS,SC,2025,1723645,50
+R253,Meridian Private Medical College,Karnataka,Private,BDS,ST,2023,2479171,50
+R254,Meridian Private Medical College,Karnataka,Private,BDS,ST,2024,2487853,50
+R255,Meridian Private Medical College,Karnataka,Private,BDS,ST,2025,2784461,50
+R256,Orchid Private Medical College,West Bengal,Private,MBBS,General,2023,51298,100
+R257,Orchid Private Medical College,West Bengal,Private,MBBS,General,2024,53925,100
+R258,Orchid Private Medical College,West Bengal,Private,MBBS,General,2025,63554,100
+R259,Orchid Private Medical College,West Bengal,Private,MBBS,EWS,2023,69143,100
+R260,Orchid Private Medical College,West Bengal,Private,MBBS,EWS,2024,77942,100
+R261,Orchid Private Medical College,West Bengal,Private,MBBS,EWS,2025,84946,100
+R262,Orchid Private Medical College,West Bengal,Private,MBBS,OBC,2023,91977,100
+R263,Orchid Private Medical College,West Bengal,Private,MBBS,OBC,2024,96114,100
+R264,Orchid Private Medical College,West Bengal,Private,MBBS,OBC,2025,103966,100
+R265,Orchid Private Medical College,West Bengal,Private,MBBS,SC,2023,297531,100
+R266,Orchid Private Medical College,West Bengal,Private,MBBS,SC,2024,331409,100
+R267,Orchid Private Medical College,West Bengal,Private,MBBS,SC,2025,316998,100
+R268,Orchid Private Medical College,West Bengal,Private,MBBS,ST,2023,487198,100
+R269,Orchid Private Medical College,West Bengal,Private,MBBS,ST,2024,503185,100
+R270,Orchid Private Medical College,West Bengal,Private,MBBS,ST,2025,531853,100
+R271,Summit Private Medical College,Tamil Nadu,Private,MBBS,General,2023,71256,100
+R272,Summit Private Medical College,Tamil Nadu,Private,MBBS,General,2024,74180,100
+R273,Summit Private Medical College,Tamil Nadu,Private,MBBS,General,2025,78674,100
+R274,Summit Private Medical College,Tamil Nadu,Private,MBBS,EWS,2023,96036,100
+R275,Summit Private Medical College,Tamil Nadu,Private,MBBS,EWS,2024,105811,100
+R276,Summit Private Medical College,Tamil Nadu,Private,MBBS,EWS,2025,104463,100
+R277,Summit Private Medical College,Tamil Nadu,Private,MBBS,OBC,2023,118526,100
+R278,Summit Private Medical College,Tamil Nadu,Private,MBBS,OBC,2024,126067,100
+R279,Summit Private Medical College,Tamil Nadu,Private,MBBS,OBC,2025,132825,100
+R280,Summit Private Medical College,Tamil Nadu,Private,MBBS,SC,2023,387706,100
+R281,Summit Private Medical College,Tamil Nadu,Private,MBBS,SC,2024,404830,100
+R282,Summit Private Medical College,Tamil Nadu,Private,MBBS,SC,2025,430999,100
+R283,Summit Private Medical College,Tamil Nadu,Private,MBBS,ST,2023,615860,100
+R284,Summit Private Medical College,Tamil Nadu,Private,MBBS,ST,2024,708121,100
+R285,Summit Private Medical College,Tamil Nadu,Private,MBBS,ST,2025,721579,100
+R286,Summit Private Medical College,Tamil Nadu,Private,BDS,General,2023,433550,50
+R287,Summit Private Medical College,Tamil Nadu,Private,BDS,General,2024,472123,50
+R288,Summit Private Medical College,Tamil Nadu,Private,BDS,General,2025,452248,50
+R289,Summit Private Medical College,Tamil Nadu,Private,BDS,EWS,2023,560616,50
+R290,Summit Private Medical College,Tamil Nadu,Private,BDS,EWS,2024,637457,50
+R291,Summit Private Medical College,Tamil Nadu,Private,BDS,EWS,2025,661873,50
+R292,Summit Private Medical College,Tamil Nadu,Private,BDS,OBC,2023,664560,50
+R293,Summit Private Medical College,Tamil Nadu,Private,BDS,OBC,2024,715782,50
+R294,Summit Private Medical College,Tamil Nadu,Private,BDS,OBC,2025,789152,50
+R295,Summit Private Medical College,Tamil Nadu,Private,BDS,SC,2023,2129567,50
+R296,Summit Private Medical College,Tamil Nadu,Private,BDS,SC,2024,2356509,50
+R297,Summit Private Medical College,Tamil Nadu,Private,BDS,SC,2025,2420169,50
+R298,Summit Private Medical College,Tamil Nadu,Private,BDS,ST,2023,3794502,50
+R299,Summit Private Medical College,Tamil Nadu,Private,BDS,ST,2024,4160459,50
+R300,Summit Private Medical College,Tamil Nadu,Private,BDS,ST,2025,4446118,50
+R301,Pinewood Private Medical College,Maharashtra,Private,MBBS,General,2023,80393,100
+R302,Pinewood Private Medical College,Maharashtra,Private,MBBS,General,2024,93959,100
+R303,Pinewood Private Medical College,Maharashtra,Private,MBBS,General,2025,98153,100
+R304,Pinewood Private Medical College,Maharashtra,Private,MBBS,EWS,2023,108347,100
+R305,Pinewood Private Medical College,Maharashtra,Private,MBBS,EWS,2024,129718,100
+R306,Pinewood Private Medical College,Maharashtra,Private,MBBS,EWS,2025,138083,100
+R307,Pinewood Private Medical College,Maharashtra,Private,MBBS,OBC,2023,137977,100
+R308,Pinewood Private Medical College,Maharashtra,Private,MBBS,OBC,2024,164861,100
+R309,Pinewood Private Medical College,Maharashtra,Private,MBBS,OBC,2025,160875,100
+R310,Pinewood Private Medical College,Maharashtra,Private,MBBS,SC,2023,463811,100
+R311,Pinewood Private Medical College,Maharashtra,Private,MBBS,SC,2024,536000,100
+R312,Pinewood Private Medical College,Maharashtra,Private,MBBS,SC,2025,552574,100
+R313,Pinewood Private Medical College,Maharashtra,Private,MBBS,ST,2023,724284,100
+R314,Pinewood Private Medical College,Maharashtra,Private,MBBS,ST,2024,812931,100
+R315,Pinewood Private Medical College,Maharashtra,Private,MBBS,ST,2025,865887,100
